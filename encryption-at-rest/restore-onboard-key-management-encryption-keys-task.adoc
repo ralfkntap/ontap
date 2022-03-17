@@ -49,7 +49,7 @@ Enter the cluster-wide passphrase for onboard key management in Vserver "cluster
 . Verify that the key needs to be restored: +
 `security key-manager key show`
 
-. If you are running ONTAP 9.8 and later, and your root volume is encrypted, complete these steps:
+. If you are running ONTAP 9.8 and later, and your root volume is encrypted, complete <<root_volume_encrypted>>.
 +
 If you are running ONTAP 9.6 or 9.7, or if you are running ONTAP 9.8 or later and your root volume is not encrypted, skip this step.
 
